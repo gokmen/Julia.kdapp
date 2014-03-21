@@ -1,4 +1,4 @@
-/* Compiled by kdc on Fri Mar 21 2014 02:03:22 GMT+0000 (UTC) */
+/* Compiled by kdc on Fri Mar 21 2014 02:12:34 GMT+0000 (UTC) */
 (function() {
 /* KDAPP STARTS */
 /* BLOCK STARTS: index.coffee */
@@ -243,10 +243,10 @@ JuliaInstaller = (function(_super) {
     var vmc;
     vmc = KD.getSingleton('vmController');
     return vmc.run("pgrep -c -f 'ipython notebook --profile=julia'", function(err, res) {
-      if (err) {
+      if (err || res.exitStatus > 0) {
         return callback(false);
       } else {
-        return callback(res > 1);
+        return callback(parseInt(res.stdout, 10) > 1);
       }
     });
   };

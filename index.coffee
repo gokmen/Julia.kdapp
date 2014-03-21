@@ -180,8 +180,8 @@ For a more in-depth discussion of the rationale and advantages of Julia over oth
   isJuliaRunning:(callback)->
     vmc = KD.getSingleton 'vmController'
     vmc.run "pgrep -c -f 'ipython notebook --profile=julia'", (err, res)->
-      if err then callback false
-      else callback res > 1
+      if err or res.exitStatus > 0 then callback false
+      else callback parseInt(res.stdout, 10) > 1
 
 
 class JuliaController extends AppController
