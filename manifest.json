@@ -1,0 +1,39 @@
+{
+  "experimental": false,
+  "background": false,
+  "hiddenHandle": false,
+  "forceUpdate": false,
+  "behavior": "application",
+  "version": "0.1",
+  "title": "Julia",
+  "name": "Julia",
+  "identifier": "com.koding.apps.julia",
+  "path": "~/Applications/Julia.kdapp",
+  "homepage": "gokmen.kd.io/julia",
+  "author": "Gokmen Goksel",
+  "authorNick": "gokmen",
+  "repository": "git://github.com/gokmen/julia.kdapp.git",
+  "description": "Julia : a Koding application created with the blank template.",
+  "category": "web-app",
+  "source": {
+    "blocks": {
+      "app": {
+        "files": [
+          "./index.coffee"
+        ]
+      }
+    },
+    "stylesheets": [
+      "./resources/style.css"
+    ]
+  },
+  "options": {
+    "type": "tab"
+  },
+  "icns": {
+    "128": "./resources/icon.128.png"
+  },
+  "screenshots": [],
+  "menu": [],
+  "fileTypes": []
+}
