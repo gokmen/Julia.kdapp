@@ -1,7 +1,7 @@
-/* Compiled by kdc on Fri Mar 21 2014 01:57:57 GMT+0000 (UTC) */
+/* Compiled by kdc on Fri Mar 21 2014 02:03:22 GMT+0000 (UTC) */
 (function() {
 /* KDAPP STARTS */
-/* BLOCK STARTS: /home/gokmen/Applications/Julia.kdapp/index.coffee */
+/* BLOCK STARTS: index.coffee */
 var JuliaController, JuliaInstaller, LogWatcher, OutPath, domain, resource, _ref,
   __hasProp = {}.hasOwnProperty,
   __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
