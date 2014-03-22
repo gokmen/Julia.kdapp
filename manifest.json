@@ -13,7 +13,7 @@
   "author": "Gokmen Goksel",
   "authorNick": "gokmen",
   "repository": "git://github.com/gokmen/julia.kdapp.git",
-  "description": "Julia : a Koding application created with the blank template.",
+  "description": "Julia is a high-level, high-performance dynamic programming language for technical computing, with syntax that is familiar to users of other technical computing environments.",
   "category": "web-app",
   "source": {
     "blocks": {
